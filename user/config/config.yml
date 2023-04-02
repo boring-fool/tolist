@@ -1,0 +1,21 @@
+server:
+  domain: user
+  version: 1.0
+  jwtSecret: 38324
+  grpcAddress: "127.0.0.1:10001"
+
+mysql:
+  driverName: mysql
+  host: 192.168.115.156
+  port: 3306
+  database: grpc_todo_list
+  username: root
+  password: 123456
+  charset: utf8mb4
+
+etcd:
+  address: 192.168.115.156:2379
+
+redis:
+  address: 192.168.115.156:6379go
+  password: 000415
